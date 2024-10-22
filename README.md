@@ -22,7 +22,7 @@ Niestety z próbą automatyzacji wiąże się też druga rzecz - Allegro zabezpi
 
 Z tych powodów zostało zaimplementowane sztuczne opóźnienie we wczytywaniu kolejnych aukcji, jednak i tak czasami może nie być to wystarczające aby uniknąć **captchy lub nawet blokady strony** (może wystąpić nawet po kilku poprawnie rozwiązanych captchach). W razie blokady strony pomaga wyczyszczenie cookies strony allegro.pl i ponowne wejście na nią celem rozwiązania captchy, restart połączenia internetowego jak się ma zmienne IP też nie zaszkodzi. 
 
-**WAŻNE: Zalecane jest wyświetlanie 20 lub 60 ofert na stronie** gdyż wymusza to częstsze przerwy związane z koniecznością przejścia na kolejną stronę. Daj sobie też chwilę czasu zanim przescrollujesz stronę celem wczytania kolejnych aukcji, posiadając monitor o dużej rozdzielczośći również nie scrolluj o całą stronę tylko o fragment (powoduje to pobranie mniejszej liczby aukcji do wczytania). Generalnie - im wolniej i im większa losowość Twoich działań - tym lepiej.
+**WAŻNE: Zalecane jest wyświetlanie 20 lub 60 ofert na stronie** gdyż wymusza to częstsze przerwy związane z koniecznością przejścia na kolejną stronę. Daj sobie też chwilę czasu zanim przescrollujesz stronę celem wczytania kolejnych aukcji, posiadając monitor o dużej rozdzielczości również nie scrolluj o całą stronę tylko o fragment (powoduje to pobranie mniejszej liczby aukcji do wczytania). Generalnie - im wolniej i im większa losowość Twoich działań - tym lepiej.
 
 ***
 Jeżeli napotkasz jakieś błędy w trakcie działania aplikacji, masz jakieś pytania, sugestie, problemy z obsługą, daj znać w sekcji "Discussions".
