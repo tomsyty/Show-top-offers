@@ -20,7 +20,15 @@ Tryb działania nie jest w pełni automatyczny z kilku powodów - po pierwsze, z
 
 Niestety z próbą automatyzacji wiąże się też druga rzecz - Allegro zabezpiecza się przed nadmiernym, zautomatyzowanym ruchem nie wykonywanym przez człowieka lecz przez boty. Zbyt szybkie i zbyt częste otwieranie stron może zostać potraktowane jako działanie nie należące do człowieka, co może skutkować koniecznością weryfikacji captcha przy wejściu na dowolną stronę Allegro (allegro.pl, nie salescenter.allegro.com). W razie wystąpienia tego problemu pojawi się stosowny komunikat. Lepiej wstrzymać się wtedy na jakiś czas z wczytywaniem kolejnych aukcji.
 
-Z tych powodów zostało zaimplementowane sztuczne opóźnienie we wczytywaniu kolejnych aukcji, jednak i tak czasami może nie być to wystarczające aby uniknąć **captchy lub nawet blokady strony** (może wystąpić nawet po kilku poprawnie rozwiązanych captchach). W razie blokady strony pomaga wyczyszczenie cookies strony allegro.pl i ponowne wejście na nią celem rozwiązania captchy, restart połączenia internetowego jak się ma zmienne IP też nie zaszkodzi. 
+Z tych powodów zostało zaimplementowane sztuczne opóźnienie we wczytywaniu kolejnych aukcji, jednak i tak czasami może nie być to wystarczające aby uniknąć **captchy lub nawet blokady strony** (może wystąpić nawet po kilku poprawnie rozwiązanych captchach). W razie blokady strony pomaga wyczyszczenie cookies strony allegro.pl oraz pamięci podręcznej przeglądarki i ponowne wejście na allegro.pl celem rozwiązania captchy, restart połączenia internetowego jak się ma zmienne IP też nie zaszkodzi.
+
+Aby wyczyścić cookies oraz pamięć podręczną otwórz konsolę dewelopera (F12) i na zakładce "Application" rozwiń "Local storage" i usuń wszystkie pozycje zawierające "allegro.pl". Podobnie zrób dla "Session storage" i "Cookies".
+
+![Alt text](assets/clear_cookies.png)
+
+Jeśli nie widzisz zakładki "Application", możesz musieć przewinąć listę zakładek lub zmienić sposób wyświetlania (domyślnie okno zadokowane jest po prawej stronie, ale można przepiąć je na dół stron - kliknij przycisk "trzy kropki" i zmień sposób dokowania)
+
+![Alt text](assets/docking_change.png)
 
 **WAŻNE: Zalecane jest wyświetlanie 20 lub 60 ofert na stronie** gdyż wymusza to częstsze przerwy związane z koniecznością przejścia na kolejną stronę. Daj sobie też chwilę czasu zanim przescrollujesz stronę celem wczytania kolejnych aukcji, posiadając monitor o dużej rozdzielczości również nie scrolluj o całą stronę tylko o fragment (powoduje to pobranie mniejszej liczby aukcji do wczytania). Generalnie - im wolniej i im większa losowość Twoich działań - tym lepiej.
 
