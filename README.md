@@ -26,7 +26,7 @@ Aby wyczyścić cookies oraz pamięć podręczną otwórz konsolę dewelopera (F
 
 ![Alt text](assets/clear_cookies.png)
 
-Jeśli nie widzisz zakładki "Application", możesz musieć przewinąć listę zakładek lub zmienić sposób wyświetlania (domyślnie okno zadokowane jest po prawej stronie, ale można przepiąć je na dół stron - kliknij przycisk "trzy kropki" i zmień sposób dokowania)
+Jeśli nie widzisz zakładki "Application", możesz musieć przewinąć listę zakładek lub zmienić sposób wyświetlania (domyślnie okno zadokowane jest po prawej stronie, ale można przepiąć je na dół strony lub odpiąć do nowego okna - kliknij przycisk "trzy kropki" i zmień sposób dokowania)
 
 ![Alt text](assets/docking_change.png)
 
