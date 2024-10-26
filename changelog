@@ -1,0 +1,4 @@
+[2024-10-26] v1.0.1:
+- po przekroczeniu limitu zapytań rozszerzenie wyłączy pobieranie dalszych aukcji ale nie przestanie działać, wyświetlając pobrane wcześniej statusy; po odblokowaniu strony można kontynuować pobieranie bez utraty poprzednio pobranych statusów
+- zmieniono sposób pobierania aukcji (co 5 sekund + losowo od 0 do 5 sekund) wraz z emulacją różnych przeglądarek (inny user-agent zmieniany losowo), co pozwala pobrać więcej aukcji przed wystąpieniem blokady (a może nawet jej uniknąć)
+- możliwość włączenia / wyłączenia pobierania aukcji bez konieczności włączania / wyłączania rozszerzenia - klikając ikonę rozszerzenia i zaznaczając / odznaczając checkbox
