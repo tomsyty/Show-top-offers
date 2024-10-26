@@ -28,6 +28,8 @@ Po wystąpieniu blokady strony automatycznie zostanie wyłączone dalsze pobiera
 
 ### Czyszczenie pamięci podręcznej i cookies w razie wystąpienia blokady strony
 
+![Alt text](assets/clear_cookies_and_storage.gif)
+
 Aby wyczyścić cookies oraz pamięć podręczną w przypadku przekroczenia liczby zapytań i zablokowania strony wykonaj następujące czynności:
 - upewnij się że nie masz otwarych żadnych kart w domenie allegro.pl (w danym oknie przeglądarki ani w żadnym innym)
 - otwórz stronę allegro.pl
