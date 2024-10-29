@@ -33,7 +33,7 @@ Po wystąpieniu blokady strony automatycznie zostanie wyłączone dalsze pobiera
 Aby wyczyścić cookies oraz pamięć podręczną w przypadku przekroczenia liczby zapytań i zablokowania strony wykonaj następujące czynności:
 - upewnij się że nie masz otwarych żadnych kart w domenie allegro.pl (w danym oknie przeglądarki ani w żadnym innym)
 - otwórz stronę allegro.pl
-- otwórz konsolę dewelopera (F12) i na zakładce "Application" rozwiń "Local storage", usuń wszystkie pozycje zawierające "allegro.pl". Podobnie zrób dla "Session storage" i "Cookies".
+- otwórz konsolę dewelopera (F12) i na zakładce "Application" rozwiń "Local storage", usuń wszystkie pozycje zawierające "allegro.pl" I "geo.captcha-delivery.com". Podobnie zrób dla "Session storage" i "Cookies".
 
   ![Alt text](assets/clear_cookies.png)
 
@@ -42,12 +42,11 @@ Aby wyczyścić cookies oraz pamięć podręczną w przypadku przekroczenia licz
   ![Alt text](assets/docking_change.png)
 
 - zamknij kartę przeglądarki
-- opcjonalnie możesz zrestartować swoje połączenie internetowe (router), jeśli masz zmienne IP
-- otwórz stronę allegro.pl, powinieneś mieć widok taki jak po czyszczeniu historii przeglądania, czyli pytanie o zezwolenie na wykorzystanie cookies przez stronę. Blokada powinna już zniknąć.
-- Możesz wrócić na stronę salescenter i otworzyć kilka swoich aukcji w nowej karcie. Za którymś razem powinna pojawić się captcha, rozwiąż ją. Jeśli nie pojawi się od razu - pojawi się po dość krótkim czasie po wznowieniu pobierania aukcji.
-- Po wykonaniu tych czynności powinieneś mieć odblokowaną stronę allegro.pl. Możesz kliknąć ikonę rozszerzenia i zaznaczyć opcję pobierania aukcji, która to została wyłączona w momencie wystąpienia błędu, następnie odświeżyć stronę salescenter celem dalszego pobierania aukcji. Warto jednak zaczekać chwilę przed kontynuacją. Może się zdarzyć że ponownie wystąpi błąd przekroczenia liczby zapytań, zwłaszcza jak nie wyskoczyła Ci weryfikacja captcha po czyszczeniu cookies i pamięci podręcznej. Rozwiąż wtedy captchę i ponowne wznów pobieranie aukcji celem dalszego pobierania ich statusów. Poprzednio pobrane statusy nie zostaną usunięte (aż do zamknięcia okna przeglądarki albo przeładowania rozszerzenia na karcie rozszerzeń).
+- zrestartuj swoje połączenie internetowe (router), jeśli masz zmienne IP
+- otwórz stronę allegro.pl, powinieneś mieć widok taki jak po czyszczeniu historii przeglądania, czyli pytanie o zezwolenie na wykorzystanie cookies przez stronę. Blokada powinna już zniknąć, jednak po próbie przewinięcia strony lub otwarcia jakiegoś linku powinna pojawić się weryfikacja bycia człowiekiem. 
+- Po wykonaniu tych czynności powinieneś mieć odblokowaną stronę allegro.pl. Możesz kliknąć ikonę rozszerzenia i zaznaczyć opcję pobierania aukcji, która to została wyłączona w momencie wystąpienia błędu, następnie odświeżyć stronę salescenter celem dalszego pobierania aukcji. Warto jednak zaczekać chwilę przed kontynuacją. Może się zdarzyć że ponownie wystąpi błąd przekroczenia liczby zapytań, zwłaszcza jak nie wyskoczyła Ci weryfikacja captcha po czyszczeniu cookies i pamięci podręcznej. Rozwiąż wtedy captchę i ponownie wznów pobieranie aukcji celem dalszego pobierania ich statusów. Poprzednio pobrane statusy nie zostaną usunięte (aż do zamknięcia okna przeglądarki albo przeładowania rozszerzenia na karcie rozszerzeń).
 
-**WAŻNE: Zalecane jest wyświetlanie 20 lub 60 ofert na stronie** gdyż wymusza to częstsze przerwy związane z koniecznością przejścia na kolejną stronę. Daj sobie też chwilę czasu zanim przescrollujesz stronę celem wczytania kolejnych aukcji, posiadając monitor o dużej rozdzielczości również nie scrolluj o całą stronę tylko o fragment (powoduje to pobranie mniejszej liczby aukcji do wczytania). Generalnie - im wolniej i im większa losowość Twoich działań - tym lepiej.
+**WAŻNE: Zalecane jest wyświetlanie 20 lub 60 ofert na stronie** gdyż wymusza to częstsze przerwy związane z koniecznością przejścia na kolejną stronę. Daj sobie też chwilę czasu zanim przescrollujesz stronę celem wczytania kolejnych aukcji, posiadając monitor o dużej rozdzielczości również nie scrolluj o całą stronę tylko o fragment (powoduje to pobranie mniejszej liczby aukcji do wczytania). Generalnie - im wolniej i im większa losowość Twoich działań - tym lepiej. **Jeśli masz stały adres IP, to lepiej nie korzystaj z tego rozszerzenia**.
 
 ***
 Jeżeli napotkasz jakieś błędy w trakcie działania aplikacji, masz jakieś pytania, sugestie, problemy z obsługą, daj znać w sekcji "Discussions".
